@@ -8,7 +8,7 @@ odoo.define("web_qunit.utils", function (require) {
 
     return {
         greet(name) {
-            //throw Exception("Someting went wrong");
+            // throw Exception("Someting went wrong");
             return `Hello ${name}, welcome to the OCA Days!`;
         }
     }

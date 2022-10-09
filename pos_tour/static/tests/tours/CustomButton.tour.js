@@ -15,6 +15,7 @@ odoo.define("pos_tour.tour.CustomButton", function (require) {
 
     // Click the custom button
     ProductScreen.do.confirmOpeningPopup();
+    ProductScreen.do.clickHomeCategory();
     ProductScreen.do.clickCustomButton();
     
     // Check input popup is displayed
